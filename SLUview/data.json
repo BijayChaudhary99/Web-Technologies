@@ -1,0 +1,32 @@
+[
+    {
+        "user": "Ram",
+        "rating": 4.5,
+        "date": "Jan 2025",
+        "comment": "Great coffee and friendly staff!"
+    },
+    {
+        "user": "Harry",
+        "rating": 4.0,
+        "date": "Feb 2025",
+        "comment": "Nice place to study, a bit crowded sometimes."
+    },
+    {
+        "user": "Sita",
+        "rating": 3.0,
+        "date": "Mar 2025",
+        "comment": "Food was okay, service could be better."
+    },
+    {
+        "user": "Geeta",
+        "rating": 5.0,
+        "date": "Apr 2025",
+        "comment": "Best burgers around campus!"
+    },
+    {
+        "user": "Amy",
+        "rating": 4.2,
+        "date": "May 2025",
+        "comment": "Affordable and cozy bookstore."
+    }
+]

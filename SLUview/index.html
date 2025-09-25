@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SLUview - Mini Yelp Replica</title>
+    <link rel="stylesheet" href="slu.css">
+</head>
+
+<body>
+    <header>
+        <h1>SLUview</h1>
+        <p>Find the best spots near SLU!</p>
+    </header>
+
+    <main class="container">
+        <aside class="filters">
+            <h2>Filters</h2>
+
+            <label for="category">Category</label>
+            <select id="category">
+                <option>All</option>
+                <option>Food</option>
+                <option>Coffee</option>
+                <option>Shopping</option>
+            </select>
+
+            <label for="price">Price</label>
+            <select id="price">
+                <option>All</option>
+                <option>$</option>
+                <option>$$</option>
+                <option>$$$</option>
+            </select>
+
+            <label for="rating">Min Rating</label>
+            <select id="rating">
+                <option>All</option>
+                <option>&#9733 1</option>
+                <option>&#9733 2</option>
+                <option>&#9733 3</option>
+                <option>&#9733 4</option>
+                <option>&#9733 5</option>
+            </select>
+        </aside>
+        <section class="businesses">
+            <h2>Featured Businesses</h2>
+
+            <div class="business-card">
+                <h3>Billiken Java Coffee</h3>
+                <p class="details">Coffee & Tea • St. Louis, MO • $$ • &#9733 4.5</p>
+                <p class="desc">Known for cozy study vibes and great lattes.</p>
+            </div>
+
+            <div class="business-card">
+                <h3>SLU Eatery</h3>
+                <p class="details">Restaurant • St. Louis, MO • $$$ • &#9733 5.0</p>
+                <p class="desc">Delicious burgers and fries, a student favorite.</p>
+            </div>
+
+            <div class="business-card">
+                <h3>SLU Billiken Bookstore</h3>
+                <p class="details">Shopping • St. Louis, MO • $$ • &#9733 3.0</p>
+                <p class="desc">Books, SLU merch, and quick snacks.</p>
+            </div>
+        </section>
+
+        <section class="reviews">
+            <h2>Latest Reviews</h2>
+            <div id="reviews-container">
+                <!-- JS will load reviews here -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 SLUview | Built for SLU students</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
