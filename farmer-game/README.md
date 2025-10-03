@@ -21,14 +21,14 @@ Clone or download this project.
 Make sure the file structure looks like this:
 
 farmer-harvest/
-├── index.html
-├── style.css
-├── utils.js
-├── farmer.js
-├── game.js
-├── input.js
-└── sprites/
-└── farmer.png
+- index.html
+- style.css
+- utils.js
+- farmer.js
+- game.js
+- input.js
+- sprites/
+  |-farmer.png
 
 Open index.html in a modern browser (Chrome, Firefox, Edge, Safari).
 
@@ -79,3 +79,4 @@ Controls
 Future Improvements
 
 Adding crops that can be collected for points and add more obstacle where difficulty level increases.
+
